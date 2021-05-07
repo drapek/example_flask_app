@@ -1,6 +1,6 @@
 import psycopg2
 import datetime
-from flask import Flask, render_template
+from flask import Flask
 
 app = Flask(__name__)
 
@@ -38,7 +38,6 @@ def _init_database():
         cur.execute(create_table_sql)
         conn.commit()
         print('Table mytable created')
-
 
 
 def _get_db_conn():
