@@ -42,7 +42,7 @@ def _init_database():
 
 def _get_db_conn():
     conn = psycopg2.connect(
-        host="localhost",
+        host="posgres-srv",
         database="db1",
         user="user",
         password="abc123")

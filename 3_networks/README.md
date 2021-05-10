@@ -1,7 +1,7 @@
 # Zadanie
 
 Utwórz kontener postgresa oraz aplikacji flaskowej (main.py), a następnie
-złącz je wewnętrzną siecią, tak aby aplikacja flask mogła pobierać dane.
+złącz je wewnętrzną siecią z kontenerem Postgres, tak aby aplikacja flask mogła pobierać dane.
 
 Dane jakie należy użyć w bazie danych to:
 User=user
